@@ -110,9 +110,12 @@ nav {
     margin-bottom: 25px;
 }
 
+.pc {
+    margin-bottom: 40px;
+}
 
 @media only screen and (max-width: 768px) {
     .telefono {
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
 }
