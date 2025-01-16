@@ -9,7 +9,7 @@ body {
 
 header {
     font-family: Arial, sans-serif;
-    color: white;    
+    color: white;
     text-align: end;
     position: relative;
     z-index: 1;
@@ -49,14 +49,12 @@ img {
     width: 100%;
     max-width: 1600px;
     margin: 0 auto;
-    padding: 0 30px;
 }
 
 .bordes2 {
     width: 100%;
     max-width: 1600px;
     margin: 0 auto;
-    padding: 0 30px;
 }
 
 .card {
@@ -110,4 +108,11 @@ nav {
 
 .espacio_boton {
     margin-bottom: 25px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .telefono {
+        margin-bottom: 50px;
+    }
 }
