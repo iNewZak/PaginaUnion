@@ -17,7 +17,7 @@ footer {
     font-family: Arial, sans-serif;
     color: white;
     text-align: center;
-    margin-top: auto;
+    margin-top: 100%;
     position: relative;
     z-index: 1;
 }
@@ -44,6 +44,13 @@ img {
 .bordes {
     width: 100%;
     max-width: 1700px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.bordes2 {
+    width: 100%;
+    max-width: 1600px;
     margin: 0 auto;
     padding: 0 30px;
 }
@@ -89,4 +96,10 @@ img {
 
 .card:hover img {
     transform: scale(1.1);
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
 }
